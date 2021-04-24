@@ -1,0 +1,36 @@
+#include 
+#include 
+int main()
+{
+int r,a,b;
+ puts("5 Random Numbers");
+ for(a=0;a<20;a++)
+ {
+ for(b=0;b<5;b++)
+ {
+ r=rand();
+ printf("%dt",r);
+ }
+ putchar('n');
+ }
+ return(0);
+ #include <stdio.h>
+int main()
+{
+     int i=2;
+     switch (i)
+     {
+        case 1:
+           printf("pizza  ");
+        case 2:
+           printf("pasta");
+        case 3:
+           printf("pita ");
+        case 4:
+           printf("pesto ");
+        default:
+           printf("pouri ");
+     }
+    return 0;
+}
+}
